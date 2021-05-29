@@ -1,12 +1,13 @@
 # 부가세 계산
-price = int(input("상품의 가격을 입력하세요: "))
-vat = price * 0.1
-print(vat)
+
+price = int(input("상품의 가격을 입력하세요: "))   # 변수 price를 숫자형으로 선언하여 입력
+vat = price * 0.1                                 # 변수 vat를 변수 price 와 0.1의 곱으로 선언
+print(vat)                                        # 변수 vat 출력
 
 # 50년후 나이 계산
-age = int(input("현재 나이를 입력하세요: "))
-age = age + 50
-print("50년 후에" + str(age) + " 세가 됩니다")
+age = int(input("현재 나이를 입력하세요: "))       # 변수 age를 숫자형으로 선언하여 입력  
+age = age + 50                                    # 변수 age를 변수 age와 50의 합으로 선언
+print("50년 후에" + str(age) + " 세가 됩니다")     # 문자형 50년 후에 세가 됩니다와 age를 합산하여 출력
 
 입력값:
 210000
