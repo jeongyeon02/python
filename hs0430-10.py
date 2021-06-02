@@ -1,19 +1,19 @@
 # 시험 점수 계산하기
 
-phi = input('철학 점수를 입력하세요: ')
-eng = input('영어 점수를 입력하세요: ')
-log = input('논리 점수를 입력하세요: ')
+phi = input('철학 점수를 입력하세요: ')              # 변수 phi 입력
+eng = input('영어 점수를 입력하세요: ')              # 변수 eng 입력
+log = input('논리 점수를 입력하세요: ')              # 변수 log 입력
 
-print("철학", phi)
-print("영어", eng)
-print("논리", log)
+print("철학 점수:", phi)                             # 문자형 철학점수:와 변수 phi 출력
+print("영어 점수:", eng)                             # 문자형 영어 점수:와 변수 eng 출력
+print("논리 점수:", log)                             # 문자형 논리 점수:와 변수 log 출력
 
-phi = int(input('철학 점수를 입력하세요: '))
-eng = int(input('영어 점수를 입력하세요: '))
-log = int(input('논리 점수를 입력하세요: '))
+phi = int(input('철학 점수를 입력하세요: '))          # 변수 phi를 숫자형으로 선언하여 입력   
+eng = int(input('영어 점수를 입력하세요: '))          # 변수 eng을 숫자형으로 선언하여 입력
+log = int(input('논리 점수를 입력하세요: '))          # 변수 log을 숫자형으로 선언하여 입력
 
-print('총점 : ', (phi + eng + log))
-print('평균 : ', (phi + eng + log) / 3)
+print("총점: ", (phi + eng + log))                   # 문자형 총점:과 변수 phi, eng, log을 합산하여 출력 
+print("평균: ", (phi + eng + log) / 3)               # 문자형 평균:과 변수 phi, eng, log을 합산한 것을 3으로 나눈 것을 출력
 
 입력값:
 90
@@ -28,4 +28,3 @@ print('평균 : ', (phi + eng + log) / 3)
 논리95
 총점:270
 평균:90.0  
-  
